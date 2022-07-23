@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# CRUD using React Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<img width="556" alt="nikki-app" src="https://user-images.githubusercontent.com/33351482/180596781-0ef7ebd4-7914-4c86-87e7-b9c42bdd941c.png">
+
 
 ## Available Scripts
 
@@ -14,11 +17,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -29,42 +27,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `npm run analyze`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Run the command to see the bundle size of files
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Link
+- [Reactjs](https://reactjs.org/docs/create-a-new-react-app.html)
+- [Redux Toolkit](https://redux-toolkit.js.org/tutorials/quick-start)
+- [ReactRouter](https://reactrouter.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## You can also check
 
-## Learn More
+- [Hashnode](https://vishalyadav.hashnode.dev/)
+- [Medium](https://medium.com/@imyadavvishal)
+- [Tripoto](https://www.tripoto.com/profile/imvishal)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We can connect on:
 
-### Code Splitting
+[![LinkedIn](https://static-exp1.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520 "LinkedIn")](https://www.linkedin.com/in/imvishalyadav/) &nbsp; &nbsp; [![Twitter](https://about.twitter.com/etc/designs/about2-twitter/public/img/favicon.ico "Twitter")](https://www.instagram.com/__vishal18/) &nbsp; &nbsp;   [![Instagram](https://static.cdninstagram.com/rsrc.php/yS/r/f_5NUHW7AZC.ico "Instagram")](https://www.instagram.com/__vishal18/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
