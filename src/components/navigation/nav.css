@@ -1,0 +1,38 @@
+.nav-header{
+    height: 56px;
+    z-index: 3;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 32px;
+}
+nav img{
+    cursor: pointer;
+}
+.nav-header > a{
+    display: flex;
+    align-items: center;
+    color: var(--color-bg-variant);
+    cursor: pointer;
+}
+.saved-notes-list{
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.nav-header>div svg{
+    vertical-align: middle;
+    color: var(--color-bg-variant);
+}
+.nav-header>div a{
+    margin-left: 12px;
+    color: var(--color-bg-variant);
+}

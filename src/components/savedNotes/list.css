@@ -1,0 +1,56 @@
+.saved-note__container{
+    padding: 56px 20px 12px;
+}
+.saved-notes__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.note__detail-wrapper{
+    position: relative;
+    background-color: var(--color-primary-variant);
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    min-height: 120px;
+    max-height: 200px;
+    margin-top: 20px;
+}
+.note__detail{
+    text-align: center;
+    overflow-y: auto;
+    max-height: 84%;
+}
+
+.note__icons{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+    margin-right: -16px;
+    position: absolute;
+    bottom: -2px;
+    right: 24px;
+}
+.note__icons button{
+    height: 0;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.note__icons a{
+    color: var(--color-black);
+}
+.note__icons svg{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+ /*======== MEDIA QUERIES(SMALL DEVICES)=======*/
+ @media screen and (max-width:500px){
+    .saved-notes__wrapper{
+        grid-template-columns:1fr;
+    }
+ }

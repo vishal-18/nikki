@@ -1,0 +1,54 @@
+.note-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title-input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid var(--color-primary-variant);
+    border-radius: 6px;
+    padding-left: 12px;
+}
+.content-text{
+    resize: none;
+    width: 400px;
+    border: 1px solid var(--color-primary-variant);;
+    border-radius: 6px;
+    margin-top: 8px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+.note-container button{
+    padding: 12px 20px;
+    border-radius: 9px;
+    margin-top: 8px;
+    background-color: var(--color-bg-variant);
+    color: var(--color-bg);
+    position: relative;
+    right: -156px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.note-container button:hover{
+background-color: var(--color-black);
+}
+.save-icon{
+    vertical-align: text-top;
+    margin-right: 3px;
+}
+ /*======== MEDIA QUERIES(SMALL DEVICES)=======*/
+ @media screen and (max-width:500px){
+    .note-container{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title-input,.content-text{
+        width: 100%;
+    }
+    .note-container button{
+        right:-124px;
+    }
+ }
