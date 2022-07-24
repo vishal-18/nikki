@@ -17,13 +17,15 @@ function EditNote() {
         content
       })
       const handleEdit=()=>{
-        setValues({title:'',content:''})
-        dispatch(editNote({
-          id:params.id,
-          title:values.title,
-          content:values.content
-        }))
-        navigate('/saved')
+        if(values.title!==''){
+          setValues({title:'',content:''})
+          dispatch(editNote({
+            id:params.id,
+            title:values.title,
+            content:values.content
+          }))
+          navigate('/saved')
+        }
       }   
 
     return (
