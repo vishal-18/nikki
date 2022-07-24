@@ -14,13 +14,15 @@ function Note() {
       content:''
     })
     const handleSave=()=>{
-      setValues({title:'',content:''})
-      dispatch(addNote({
-        id:id,
-        title:values.title,
-        content:values.content
-      }))
-      navigate('/saved');
+      if(values.title!==''){
+        setValues({title:'',content:''})
+        dispatch(addNote({
+          id:id,
+          title:values.title,
+          content:values.content
+        }))
+        navigate('/saved');
+      }
     }   
 
   return (
@@ -29,8 +31,10 @@ function Note() {
       name='title'
       placeholder='Title'
       className='title-input'
+      required
       value={values.title}
-      onChange={(e)=>setValues({...values,title:e.target.value})}/>
+      onChange={(e)=>setValues({...values,title:e.target.value})}
+      />
 
       <textarea
       name='content' 
